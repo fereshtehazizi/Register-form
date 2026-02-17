@@ -13,6 +13,7 @@ export default function RegisterForm(){
     });
 
     function onSubmit(data){
+         reset();
         console.log("Account created", data);
         setSuccess("Account created successfully!");
     }
@@ -69,4 +70,5 @@ export default function RegisterForm(){
             </div>
         </form>
     )
+
 }
